@@ -15,9 +15,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "´ÏºñÀÇ ºí·Î±×"
+title                    : "ë‹ˆë¹„ì˜ ë¸”ë¡œê·¸"
 title_separator          : "-"
-subtitle                 : # °³¹ßÀÚ¸¦ ²Ş²Ù´Â »ç¶÷
+subtitle                 : #
 name                     : "Libi"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://CHS96.github.io/"
