@@ -1,16 +1,6 @@
 # main links
 main:
-  - title: "카테고리"
-    url: https://CHS96.github.io/
-    -title : 자료구조"
-     url: /about/
+  - title: "Category"
+    url: /category/
   - title: "About"
     url: /about/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
