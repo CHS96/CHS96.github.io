@@ -1,13 +1,9 @@
 ---
-title: "이 블로그 설명서"
+title: "블로그 설명서"
 permalink: /about/
 layout: single
 ---
 
-## CHS96.github.io 블로그
+## CHS96.github.io Blog
 
-이 블로그는 GitHub Pages 블로그 서비스인 github.io를 같이 만들어보는 샘플 블로그이다.
-
-진짜 블로그인 <https://CHS96.github.io>를 방문해보자.
-이 곳에서 이 샘플 블로그를 같이 만들어보는 GitHub Pages 블로그 따라하기 시리즈의
-모든 글을 볼 수 있다.
+이 블로그는 내가 공부한 내용을 정리하는 블로그이다.
