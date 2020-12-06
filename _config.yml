@@ -20,7 +20,7 @@ title_separator          : "-"
 subtitle                 : #
 name                     : "Libi"
 description              : "This is my Blog!"
-url                      : <{{ site.url }}{{ site.baseurl }}/blog/start-blog/>
+url                      : "https://chs96.github.io/"
                            # the base hostname & protocol for your site e.g.
 baseurl                  : # the subpath of your site, e.g. " "
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
