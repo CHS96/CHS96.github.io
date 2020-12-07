@@ -1,7 +1,7 @@
 ---
-title: "Category"
+title: "Posts by Category"
+layout: categories
 permalink: /category/
-layout: single
+author_profile: true
 ---
 
-## HI

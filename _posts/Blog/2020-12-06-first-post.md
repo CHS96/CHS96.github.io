@@ -4,8 +4,7 @@ excerpt: "GitHub Blog 서비스인 github.io 블로그 시작!"
 
 categories:
   - Blog
-tags:
-  - Blog
+  
 last_modified_at: 2020-12-06T12:39:00
 ---
 
