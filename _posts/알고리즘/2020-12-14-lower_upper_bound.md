@@ -40,8 +40,8 @@ public class Blog {
 	}
 }
 ```
-
-두 번째는 **Upper_bound**라는 알고리즘이다. Lower_bound는 상한선이라는 뜻으로 리스트에서 찾고자 하는 Key 값보다 큰 첫 번째 인덱스를 찾아주는 알고리즘이다.  
+<br>
+두 번째는 **Upper_bound**라는 알고리즘이다. Upper_bound는 상한선이라는 뜻으로 리스트에서 찾고자 하는 Key 값보다 큰 첫 번째 인덱스를 찾아주는 알고리즘이다.  
 
 Upper_bound는 key 값보다 큰 원소의 위치를 찾는 것이기 때문에 mid의 값이 key보다 작거나 같을 때는 left를 mid + 1로 변경해 주고 key보다 클 때는 right를  mid로 변경하여 key 값을 포함시키도록 한다. 즉, key를 찾아도 left를 증가시켜준다.  
 
