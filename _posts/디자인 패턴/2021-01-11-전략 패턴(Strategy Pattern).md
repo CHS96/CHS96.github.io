@@ -29,7 +29,7 @@ class Client {
 	public void buy_Product(String product) {
 		if (product.equals("달걀")) {
 			System.out.println("비용 : 300원");
-		} else if (product.endsWith("우유")) {
+		} else if (product.equals("우유")) {
 			System.out.println("비용 : 500원");
 		}
 	}
@@ -43,9 +43,9 @@ class Client {
 	public void buy_Product(String product) {
 		if (product.equals("달걀")) {
 			System.out.println("비용 : 300원");
-		} else if (product.endsWith("우유")) {
+		} else if (product.equals("우유")) {
 			System.out.println("비용 : 500원");
-		} else if (product.endsWith("라면")) {
+		} else if (product.equals("라면")) {
 			System.out.println("비용 : 700원");
 		}
 	}
