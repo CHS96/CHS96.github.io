@@ -82,7 +82,7 @@ class Volt_110 implements ConnectAdapter {
 }
 
 class Client {
-	ConnectAdapter connectAdapter;
+	private ConnectAdapter connectAdapter;
 	
 	public Client(ConnectAdapter connectAdapter) {
 		this.connectAdapter = connectAdapter;
@@ -101,11 +101,12 @@ class Blog {
     public static void main(String[] args) {
     	Client client = new Client(new Volt_220());
     	client.volt_Connect();
-
+    	System.out.println("================");
     	client.setConnectAdapter(new Volt_110());
     	client.volt_Connect();
     }
 }
 ```
+![어댑터2](https://user-images.githubusercontent.com/53072057/104285692-54207280-54f7-11eb-8a7b-f0e7a50618f8.JPG)  
 
 Client는 어댑터 인터페이스로만 의존하기 때문에 다양한 전기를 사용한다 하여도 Clinet의 코드는 변경할 필요가 없어진다. 또한 서로 호환되는 인터페이스가 별로 없는 클래스들이 함께 작동되게 해주는 장점이 있다.  
