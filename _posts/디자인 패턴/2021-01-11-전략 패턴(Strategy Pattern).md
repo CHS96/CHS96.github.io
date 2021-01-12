@@ -64,21 +64,21 @@ interface Product {
 class Egg implements Product {
 	@Override
 	public void buy_Product() {
-		System.out.println("비용 : 300원");
+		System.out.println("달걀 비용 : 300원");
 	}
 }
 
 class Milk implements Product {
 	@Override
 	public void buy_Product() {
-		System.out.println("비용 : 500원");
+		System.out.println("우유 비용 : 500원");
 	}
 }
 
 class Ramen implements Product {
 	@Override
 	public void buy_Product() {
-		System.out.println("비용 : 700원");
+		System.out.println("라면 비용 : 700원");
 	}
 }
 
@@ -97,6 +97,20 @@ class Client {
 		product.buy_Product();
 	}
 }
+
+class Blog {
+    public static void main(String[] args) {
+    	Client client = new Client(new Egg());
+    	client.buy_Product();;
+    	System.out.println("================");
+    	client.setProduct(new Milk());
+    	client.buy_Product();;
+    	System.out.println("================");
+    	client.setProduct(new Ramen());
+    	client.buy_Product();;
+    }
+}
 ```
+![전략2](https://user-images.githubusercontent.com/53072057/104285699-5682cc80-54f7-11eb-887b-5147af199360.JPG)  
 
 이런 식으로 행위들을 별도의 클래스를 통해 관리한다면 이후 상품을 추가하거나 비용을 변경한다 하여도 Client 클래스에는 아무런 영향을 끼치지 않는다. 또한 Client 클래스 내용이 상당히 깔끔해진 것을 확인할 수 있다. 
