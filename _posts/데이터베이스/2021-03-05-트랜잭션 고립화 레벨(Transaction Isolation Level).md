@@ -28,8 +28,7 @@ DB에서 수행되는 모든 작업은 **트랜잭션**이라고 한다.
 
 트랜잭션의 ACID에 대해 궁금하다면 다음 글을 참고하길 바란다.  
 
-* <https://blog.naver.com/djena5078>  
-[![고립화레벨2](https://user-images.githubusercontent.com/53072057/110067206-927b3500-7db6-11eb-9b4c-6608440638d7.JPG)](https://blog.naver.com/djena5078)  
+[![고립화레벨2](https://user-images.githubusercontent.com/53072057/110068213-8bedbd00-7db8-11eb-9ce8-4b6bb7d37b85.JPG)](https://blog.naver.com/PostView.nhn?blogId=djena5078&logNo=222194702237&categoryNo=6&parentCategoryNo=0&viewDate=&currentPage=2&postListTopCurrentPage=&from=postList&userTopListOpen=true&userTopListCount=5&userTopListManageOpen=false&userTopListCurrentPage=2)  
 
 즉, DB는 ACID 특징처럼 트랜잭션이 원자적이면서 독립적인 수행을 하도록 해줘야 하는데 이때 등장하는 개념이 Locking이다. 세마포어의 Lock을 생각하면 된다.  
 
