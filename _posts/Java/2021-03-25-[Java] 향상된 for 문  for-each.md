@@ -35,7 +35,7 @@ for (String var : list) {
 	//var를 사용해주면 됨, var은 list.get(i)와 같은 역
 }
 ```
-
+  
 좀 더 자세히 말하면 **iterate는 iterable이 가능한 자료구조들을 사용할 수 있다**. Iterable 인터페이스를 살펴보면 for-each 문에 활용할 수 있다고 적힌 것을 볼 수 있다.  
 
 ![for-each](https://user-images.githubusercontent.com/53072057/112416840-d2a45680-8d69-11eb-9180-493e5747b27b.JPG)  
@@ -48,7 +48,7 @@ Iterable<String> iter = Arrays.asList("A","B","C","D","E");
 for (String var : iter) {
 	//var를 사용해주면 됨, var은 list.get(i)와 같은 역
 }		
-​```
+```
 
 for-each 문이 가독성이 좋고 짧기 때문에 사용하기 간단해 보인다. 그렇다면 for-each 문만 사용하면 되지 않을까?라는 의문이 들 수 있지만 두 방식은 장단점이 존재한다.  
 
@@ -182,7 +182,6 @@ public class Main {
 
 
 <h2>[ Reference ]</h2>  
-* <https://coding-factory.tistory.com/529>  
-* <https://highcode.tistory.com/6>
-* <https://offbyone.tistory.com/400>
+* <https://junghyungil.tistory.com/65>  
+* <https://multifrontgarden.tistory.com/130>  
   
