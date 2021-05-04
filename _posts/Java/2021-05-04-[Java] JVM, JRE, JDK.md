@@ -25,15 +25,16 @@ JVM은 자바 소스코드(.java)가 컴파일러에 의해 만들어지는 바�
   
   
 JVM은 다음과 같은 역할은 수행한다.  
+
 	* 바이트 코드를 읽는다.  
 	* 바이트 코드를 검증한다.  
 	* 바이트 코드를 실행한다.  
 	* 실행 환경(Runtime Environment)의 규격을 제공한다. (필요한 라이브러리 및 기타 파일)  
 
 ​
-
   
-<h1>JRE(Java Runtime Environment)<h1>  
+  
+<h1>JRE(Java Runtime Environment)</h1>  
 
 JRE는 자바 실행 환경(Java Runtime Environment)의 약자로써 컴파일된 자바 프로그램을 실행시킬 수 있는 자바 환경을 의미한다.  
 
@@ -50,9 +51,9 @@ JRE는 자바 프로그램을 실행하기 위한 필수적인 요소이다.
 ![Java  JVM, JRE, JDK](https://user-images.githubusercontent.com/53072057/116960631-f4371d00-acdb-11eb-941b-9636744aeb70.JPG)  
 
 ​
-
   
-<h1>JDK(Java Development Kit)<h1>  
+  
+<h1>JDK(Java Development Kit)</h1>  
 
 JDK는 JRE + 자바 프로그램을 개발하기 위해 필요한 도구(javac, java 등)을 포함한다.  
 
